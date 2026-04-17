@@ -8,8 +8,8 @@ OpenCode 또는 Codex에서 로컬 Claude CLI를 호출해 Claude에게 2차 검
 
 ## 개요
 
-일부 서드파티 코딩 에이전트는 자체 provider 연동만으로 Claude 모델을 직접 호출할 수 없습니다.
-이 skill은 로컬에 설치된 `claude` CLI를 실행해서 그 결과를 에이전트에게 다시 전달하는 방식으로 동작합니다.
+Anthropic 정책으로 인해 외부 클라이언트에서는 OAuth로 Claude를 사용할 수 없습니다.
+이 skill은 로컬에 설치된 `claude` CLI를 호출해 리뷰를 요청한 뒤 그 결과를 에이전트에게 다시 전달합니다.
 
 대표적인 용도:
 

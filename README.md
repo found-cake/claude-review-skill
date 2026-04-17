@@ -8,8 +8,8 @@ Ask the local Claude CLI for a second opinion from OpenCode or Codex.
 
 ## What this is
 
-Some third-party coding agents cannot call Claude models directly through their own provider integrations.
-This skill works around that by invoking the locally installed `claude` CLI and returning the result back to the agent.
+Because of Anthropic's policy, Claude cannot be used through OAuth from external clients.
+This skill works around that by invoking the locally installed `claude` CLI and returning the result to the agent.
 
 Typical use cases:
 
